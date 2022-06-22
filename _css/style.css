@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section#secion-top{
+    background-image: url('../_image/bkg_top.jpg');
+    height: 800px;
 }
 
 #top{
-    background-image: url('../_image/bkg_top.jpg');
-    height: 800px;
     display: flex;
     justify-content: space-between;
     padding-top: 2%;
@@ -16,18 +20,17 @@
     background-color: #ffba00;
     width: 20%;
     height: 10%;
-    font-family: 'Montserrat', sans-serif;
-      
+    
+    padding: 10px;     
     
 }
 #title_top h1{ 
     margin-left: 32%;   
     font-weight: bold;    
     font-size: 24pt;
-    padding-top: 6%;
 }
 
-#sustenido{    
+.lighter{    
     font-weight: lighter;
 }
 
@@ -35,7 +38,7 @@ nav {
     width: 80%;
     margin: 0 auto;
     /*padding: 50px 0;*/
-    box-shadow: 0px 5px 0px #dedede;
+    
   }
   nav ul {
     list-style: none;
@@ -47,9 +50,7 @@ nav {
   nav ul li a {
     display: block;
     padding: 15px;
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;    
     font-weight: light;
     font-size: 20pt;
     margin: 0 10px;
@@ -61,6 +62,7 @@ nav {
   }
   nav ul li a:hover {
     color: #ffba00;
+    box-shadow: 0px 2px 0px #ffba00;
   }
 
   nav.fill ul li a {
@@ -84,4 +86,37 @@ nav {
     opacity: 1;
   }
 
-  
+  #middle{
+    display: flex;
+    background-color: #ffba00;
+    color: #fff;
+    width: 100%;
+    height: 23%;
+    margin-top: 20%;
+  }
+
+  #middle h2{
+    margin-left: 10%;
+    font-size: 75pt;
+    font-weight: bold;
+  }
+
+  h2#read-more{
+    height: 35px;
+    font-size: 20pt;
+    font-weight: lighter;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 11%;
+    background-color: #ffba00;
+  }
+
+  h2#read-more a{
+    text-decoration: none;
+    transition: color .3s ease-in-out, box-shadow .5s ease-in-out;
+    
+  }
+
+  h2#read-more a:hover{
+    box-shadow: inset 200px 0 0 0 #000;
+  }

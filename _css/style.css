@@ -120,3 +120,47 @@ nav {
   h2#read-more a:hover{
     box-shadow: inset 200px 0 0 0 #000;
   }
+
+  section#secion-what-new{
+    background-color: #242424;
+    width: 100%;
+    display: flex;
+  }
+
+  span#vertical{
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+    font-weight: lighter;
+    font-size: 35pt;
+    margin-left: -38%;
+    margin-top: 95px;
+  }
+
+  span#vertical:nth-child(2){
+    position: relative;
+  }
+
+  #yellow-rectangle{
+    position: relative;
+    background-color: #ffba00;
+    width: 40%;
+    height: 180px;
+    margin-top: 10%;
+    margin-left: 12%;
+  }
+
+  #yellow-rectangle:first-child{
+    position: relative;
+  }
+
+  #half-pizza-right{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #what-new:nth-child(3){
+    position: relative;
+    margin-top: 160px;
+  }
+
+  

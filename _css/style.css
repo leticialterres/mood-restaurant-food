@@ -173,3 +173,19 @@ span#vertical:nth-child(2){
     font-size: 16pt;
     padding: 12px
 }
+
+#how-we-work{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#how-we-work h1{
+  color: #ffba00;
+  font-weight: bold;
+}
+
+#how-we-work p{
+  color: #000;
+  font-weight: lighter;
+  font-size: 10pt;
+}

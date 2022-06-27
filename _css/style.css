@@ -177,15 +177,21 @@ span#vertical:nth-child(2){
 #how-we-work{
   display: flex;
   justify-content: space-evenly;
+  height: 200px;
+  align-items: center;
+}
+
+.how-we-work-itens{
+  width: 25%;
 }
 
 #how-we-work h1{
   color: #ffba00;
   font-weight: bold;
+  padding-bottom: 5%;
 }
 
 #how-we-work p{
   color: #000;
-  font-weight: lighter;
   font-size: 10pt;
 }

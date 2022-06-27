@@ -195,3 +195,89 @@ span#vertical:nth-child(2){
   color: #000;
   font-size: 10pt;
 }
+
+section#our-new-menu{
+  background-image: url('../_image/bkg-our-new-menu.jpg.png');
+  height: 1202px;
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#title-pizzeria{
+  width: 80%;
+  text-align: -webkit-center;
+  font-size: 25pt;
+  padding-top: 5%;
+}
+
+#title-pizzeria h1{
+  color: #ffba00;
+}
+
+#lighter-new-menu{
+  color: #ffba00;
+  font-weight: lighter;
+}
+
+#title-our-menu{
+  border: #fff 1px solid;
+  margin-top: 3%;
+  width: 80%;
+  text-align: -webkit-center;
+}
+
+#title-our-menu h2{
+  text-transform: uppercase;
+  color: #ffba00;
+  font-weight: 500;
+  padding-bottom: 5%;
+  font-size: 22pt;
+}
+
+div#list-menu{
+  width: 70%;
+  height: 333px;
+  margin-top: 6%;
+  background-color: #ffba00;
+  font-size: 20pt;
+}
+
+
+#table-menu-price{
+  color: #fff;
+}
+
+table, td {
+  border: 0px solid;
+}
+
+table{
+  margin-top: 2%;
+}
+
+.table-td{
+  padding: 18px;
+  text-transform: uppercase;
+}
+
+.lower{
+  text-transform: lowercase;
+}
+
+.table-td-price{
+  padding-left: 20%;
+}
+
+#list-topper li{
+  list-style: none;
+  font-size: 16pt;
+}
+
+#list-topper{
+  border: #fff 1px solid;
+    width: 31%;
+    padding: 3%;
+    margin: auto;
+}

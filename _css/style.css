@@ -206,10 +206,10 @@ section#our-new-menu{
 }
 
 #title-pizzeria{
-  width: 80%;
+  width: 100%;
   text-align: -webkit-center;
   font-size: 25pt;
-  padding-top: 5%;
+  padding-top: 8%;
 }
 
 #title-pizzeria h1{
@@ -229,19 +229,21 @@ section#our-new-menu{
 }
 
 #title-our-menu h2{
+  margin-left: -14%;
+  text-align: -webkit-center;
   text-transform: uppercase;
   color: #ffba00;
   font-weight: 500;
-  padding-bottom: 5%;
-  font-size: 22pt;
+  padding-bottom: 4%;
+  font-size: 33pt
 }
 
 div#list-menu{
   width: 70%;
   height: 333px;
-  margin-top: 6%;
+  margin-top: 8%;
   background-color: #ffba00;
-  font-size: 20pt;
+  font-size: 22pt;
 }
 
 
@@ -272,12 +274,12 @@ table{
 
 #list-topper li{
   list-style: none;
-  font-size: 16pt;
+  font-size: 20pt;
 }
 
 #list-topper{
   border: #fff 1px solid;
-    width: 31%;
+    width: 32%;
     padding: 3%;
     margin: auto;
 }

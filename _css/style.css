@@ -1,36 +1,37 @@
-*{
+* {
   margin: 0;
   padding: 0;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
 
-section#secion-top{
+section#secion-top {
   background-image: url('../_image/bkg_top.jpg');
   height: 800px;
 }
 
-#top{
+#top {
   display: flex;
   justify-content: space-between;
   padding-top: 2%;
 }
 
-#title_top{    
+#title_top {
   background-color: #ffba00;
   width: 20%;
   height: 10%;
-  
-  padding: 10px;     
-  
+
+  padding: 10px;
+
 }
-#title_top h1{ 
-  margin-left: 32%;   
-  font-weight: bold;    
+
+#title_top h1 {
+  margin-left: 32%;
+  font-weight: bold;
   font-size: 24pt;
 }
 
-.lighter{    
+.lighter {
   font-weight: lighter;
 }
 
@@ -38,28 +39,33 @@ nav {
   width: 80%;
   margin: 0 auto;
   /*padding: 50px 0;*/
-  
+
 }
+
 nav ul {
   list-style: none;
   text-align: center;
 }
+
 nav ul li {
   display: inline-block;
 }
+
 nav ul li a {
   display: block;
   padding: 15px;
-  text-decoration: none;    
+  text-decoration: none;
   font-weight: light;
   font-size: 20pt;
   margin: 0 10px;
 }
+
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
+
 nav ul li a:hover {
   color: #ffba00;
   box-shadow: 0px 2px 0px #ffba00;
@@ -75,18 +81,20 @@ nav.fill ul li a:after {
   margin: 0;
   opacity: 0;
 }
+
 nav.fill ul li a:hover {
   color: #ffba00;
-  
+
 }
-nav.fill ul li a:hover:after {    
+
+nav.fill ul li a:hover:after {
   animation: fill 1s forwards;
   -webkit-animation: fill 1s forwards;
   -moz-animation: fill 1s forwards;
   opacity: 1;
 }
 
-#middle{
+#middle {
   display: flex;
   background-color: #ffba00;
   color: #fff;
@@ -95,13 +103,13 @@ nav.fill ul li a:hover:after {
   margin-top: 20%;
 }
 
-#middle h2{
+#middle h2 {
   margin-left: 10%;
   font-size: 75pt;
   font-weight: bold;
 }
 
-h2#read-more{
+h2#read-more {
   height: 35px;
   font-size: 20pt;
   font-weight: lighter;
@@ -111,24 +119,24 @@ h2#read-more{
   background-color: #ffba00;
 }
 
-h2#read-more a{
+h2#read-more a {
   text-decoration: none;
   transition: color .3s ease-in-out, box-shadow .5s ease-in-out;
-  
+
 }
 
-h2#read-more a:hover{
+h2#read-more a:hover {
   box-shadow: inset 200px 0 0 0 #000;
 }
 
-section#secion-what-new{
+section#secion-what-new {
   background-color: #242424;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-span#vertical{
+span#vertical {
   text-orientation: mixed;
   writing-mode: vertical-lr;
   font-weight: lighter;
@@ -137,11 +145,11 @@ span#vertical{
   margin-top: 10%;
 }
 
-span#vertical:nth-child(2){
+span#vertical:nth-child(2) {
   position: relative;
 }
 
-#yellow-rectangle{
+#yellow-rectangle {
   position: relative;
   background-color: #ffba00;
   width: 50%;
@@ -150,53 +158,53 @@ span#vertical:nth-child(2){
   margin-left: 10%;
 }
 
-#yellow-rectangle:first-child{
+#yellow-rectangle:first-child {
   position: relative;
 }
 
-#half-pizza-right{
+#half-pizza-right {
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-#what-new:nth-child(3){
+#what-new:nth-child(3) {
   position: relative;
   margin-top: 160px;
 }
 
-#what-new h1{
+#what-new h1 {
   font-size: 25pt;
   font-weight: 400;
 }
 
-#what-new p{
-    font-size: 16pt;
-    padding: 12px
+#what-new p {
+  font-size: 16pt;
+  padding: 12px
 }
 
-#how-we-work{
+#how-we-work {
   display: flex;
   justify-content: space-evenly;
   height: 200px;
   align-items: center;
 }
 
-.how-we-work-itens{
+.how-we-work-itens {
   width: 25%;
 }
 
-#how-we-work h1{
+#how-we-work h1 {
   color: #ffba00;
   font-weight: bold;
   padding-bottom: 5%;
 }
 
-#how-we-work p{
+#how-we-work p {
   color: #000;
   font-size: 10pt;
 }
 
-section#our-new-menu{
+section#our-new-menu {
   background-image: url('../_image/bkg-our-new-menu.jpg.png');
   height: 1202px;
   background-color: #242424;
@@ -205,30 +213,30 @@ section#our-new-menu{
   align-items: flex-end;
 }
 
-#title-pizzeria{
+#title-pizzeria {
   width: 100%;
   text-align: -webkit-center;
   font-size: 25pt;
   padding-top: 8%;
 }
 
-#title-pizzeria h1{
+#title-pizzeria h1 {
   color: #ffba00;
 }
 
-#lighter-new-menu{
+#lighter-new-menu {
   color: #ffba00;
   font-weight: lighter;
 }
 
-#title-our-menu{
+#title-our-menu {
   border: #fff 1px solid;
   margin-top: 3%;
   width: 80%;
   text-align: -webkit-center;
 }
 
-#title-our-menu h2{
+#title-our-menu h2 {
   margin-left: -14%;
   text-align: -webkit-center;
   text-transform: uppercase;
@@ -238,7 +246,7 @@ section#our-new-menu{
   font-size: 33pt
 }
 
-div#list-menu{
+div#list-menu {
   width: 70%;
   height: 333px;
   margin-top: 8%;
@@ -247,39 +255,82 @@ div#list-menu{
 }
 
 
-#table-menu-price{
+#table-menu-price {
   color: #fff;
 }
 
-table, td {
+table,
+td {
   border: 0px solid;
 }
 
-table{
+table {
   margin-top: 2%;
 }
 
-.table-td{
+.table-td {
   padding: 18px;
   text-transform: uppercase;
 }
 
-.lower{
+.lower {
   text-transform: lowercase;
 }
 
-.table-td-price{
+.table-td-price {
   padding-left: 20%;
 }
 
-#list-topper li{
+#list-topper li {
   list-style: none;
   font-size: 20pt;
 }
 
-#list-topper{
+#list-topper {
   border: #fff 1px solid;
-    width: 32%;
-    padding: 3%;
-    margin: auto;
+  width: 32%;
+  padding: 3%;
+  margin: auto;
+}
+
+#section-about-our-concept {
+  background-color: #242424;
+  height: 300px;
+  position: relative;
+}
+
+#about-our-concept {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#about-our-concept h1 {
+  text-transform: uppercase;
+  color: #ffba00;
+  font-weight: 500;
+  padding-bottom: 3%;
+}
+
+#about-our-concept span {
+  color: #ffba00;
+  font-weight: bolder;
+}
+
+#about-our-concept p {
+  font-size: small;
+  padding-bottom: 5%;
+}
+
+#about-itens{
+  font-weight: 600;
+}
+
+#about-itens a{
+  text-decoration: none;
+  padding-right: 3%;
 }

@@ -334,3 +334,47 @@ table {
   text-decoration: none;
   padding-right: 3%;
 }
+
+#section-masterclas{
+  width: 100%;
+  height: 1205px;
+  background-image: url('../_image/bkg_masterclas.png');
+  display: flex;
+  justify-content: end;
+}
+
+#masterclas{
+  padding-top: 5%;
+}
+
+#masterclas h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: xx-large;
+  padding-bottom: 5%;
+}
+
+#bkg-ylw{
+  background-color: #ffba00;
+  width: 40%;
+  text-align: right;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#bkg-ylw h2{
+  font-size: 30pt;
+}
+
+#bkg-ylw h3{
+  font-size: 25pt;
+  font-weight: 500;
+  padding-top: 10%;
+}
+
+#bkg-ylw p{
+  font-size: 25pt;
+  padding-top: inherit;
+}

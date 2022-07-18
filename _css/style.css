@@ -478,3 +478,30 @@ table {
   font-size: 20pt;
   font-weight: bold;
 }
+
+#footer{
+  background-color: #483500;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer h1{
+  text-transform: uppercase;
+  font-size: 16pt;
+  padding-bottom: 12%;
+  padding-top: 18%;
+}
+
+#about-footer{
+  width: 20%;
+}
+
+#footer li{
+  list-style: none;
+  line-height: 1.8;
+}
+
+#link-footer{
+  padding-top: 2%;
+}
